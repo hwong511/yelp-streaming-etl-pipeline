@@ -1,0 +1,19 @@
+# Streaming
+faust-streaming>=0.11.3
+kafka-python-ng>=2.2.0
+aiokafka==0.11.0  # Pin to compatible version with faust-streaming
+rocksdict>=0.3.29  # RocksDB bindings for state storage
+lz4>=4.3.2  # LZ4 compression for Kafka messages
+python-snappy>=0.7.0  # Snappy compression support
+
+# Data validation
+pydantic>=2.10.0
+
+# Database
+psycopg2-binary>=2.9.10
+
+# NLP
+langdetect==1.0.9
+
+# Utilities
+python-dateutil==2.8.2
